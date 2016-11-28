@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEA285FA1DEC50380040C232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA285F91DEC50380040C232 /* main.m */; };
+		EEA285FD1DEC50380040C232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA285FC1DEC50380040C232 /* AppDelegate.m */; };
+		EEA286001DEC50380040C232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA285FF1DEC50380040C232 /* ViewController.m */; };
+		EEA286031DEC50380040C232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA286011DEC50380040C232 /* Main.storyboard */; };
+		EEA286051DEC50380040C232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA286041DEC50380040C232 /* Assets.xcassets */; };
+		EEA286081DEC50380040C232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA286061DEC50380040C232 /* LaunchScreen.storyboard */; };
+		EEA286111DEC50670040C232 /* CustomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA286101DEC50670040C232 /* CustomPopView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEA285F51DEC50380040C232 /* CustomPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA285F91DEC50380040C232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEA285FB1DEC50380040C232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEA285FC1DEC50380040C232 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEA285FE1DEC50380040C232 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEA285FF1DEC50380040C232 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEA286021DEC50380040C232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEA286041DEC50380040C232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA286071DEC50380040C232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEA286091DEC50380040C232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEA2860F1DEC50670040C232 /* CustomPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopView.h; sourceTree = "<group>"; };
+		EEA286101DEC50670040C232 /* CustomPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA285F21DEC50380040C232 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEA285EC1DEC50380040C232 = {
+			isa = PBXGroup;
+			children = (
+				EEA285F71DEC50380040C232 /* CustomPopView */,
+				EEA285F61DEC50380040C232 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEA285F61DEC50380040C232 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA285F51DEC50380040C232 /* CustomPopView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA285F71DEC50380040C232 /* CustomPopView */ = {
+			isa = PBXGroup;
+			children = (
+				EEA285FB1DEC50380040C232 /* AppDelegate.h */,
+				EEA285FC1DEC50380040C232 /* AppDelegate.m */,
+				EEA285FE1DEC50380040C232 /* ViewController.h */,
+				EEA285FF1DEC50380040C232 /* ViewController.m */,
+				EEA2860F1DEC50670040C232 /* CustomPopView.h */,
+				EEA286101DEC50670040C232 /* CustomPopView.m */,
+				EEA286011DEC50380040C232 /* Main.storyboard */,
+				EEA286041DEC50380040C232 /* Assets.xcassets */,
+				EEA286061DEC50380040C232 /* LaunchScreen.storyboard */,
+				EEA286091DEC50380040C232 /* Info.plist */,
+				EEA285F81DEC50380040C232 /* Supporting Files */,
+			);
+			path = CustomPopView;
+			sourceTree = "<group>";
+		};
+		EEA285F81DEC50380040C232 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEA285F91DEC50380040C232 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA285F41DEC50380040C232 /* CustomPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA2860C1DEC50380040C232 /* Build configuration list for PBXNativeTarget "CustomPopView" */;
+			buildPhases = (
+				EEA285F11DEC50380040C232 /* Sources */,
+				EEA285F21DEC50380040C232 /* Frameworks */,
+				EEA285F31DEC50380040C232 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomPopView;
+			productName = CustomPopView;
+			productReference = EEA285F51DEC50380040C232 /* CustomPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA285ED1DEC50380040C232 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = gavin;
+				TargetAttributes = {
+					EEA285F41DEC50380040C232 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEA285F01DEC50380040C232 /* Build configuration list for PBXProject "CustomPopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA285EC1DEC50380040C232;
+			productRefGroup = EEA285F61DEC50380040C232 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA285F41DEC50380040C232 /* CustomPopView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA285F31DEC50380040C232 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA286081DEC50380040C232 /* LaunchScreen.storyboard in Resources */,
+				EEA286051DEC50380040C232 /* Assets.xcassets in Resources */,
+				EEA286031DEC50380040C232 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA285F11DEC50380040C232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA286001DEC50380040C232 /* ViewController.m in Sources */,
+				EEA285FD1DEC50380040C232 /* AppDelegate.m in Sources */,
+				EEA285FA1DEC50380040C232 /* main.m in Sources */,
+				EEA286111DEC50670040C232 /* CustomPopView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEA286011DEC50380040C232 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA286021DEC50380040C232 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEA286061DEC50380040C232 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEA286071DEC50380040C232 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEA2860A1DEC50380040C232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEA2860B1DEC50380040C232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA2860D1DEC50380040C232 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.CustomPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEA2860E1DEC50380040C232 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomPopView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gavin.CustomPopView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA285F01DEC50380040C232 /* Build configuration list for PBXProject "CustomPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA2860A1DEC50380040C232 /* Debug */,
+				EEA2860B1DEC50380040C232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA2860C1DEC50380040C232 /* Build configuration list for PBXNativeTarget "CustomPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA2860D1DEC50380040C232 /* Debug */,
+				EEA2860E1DEC50380040C232 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEA285ED1DEC50380040C232 /* Project object */;
+}
