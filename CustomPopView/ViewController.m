@@ -28,11 +28,14 @@
 
 - (IBAction)show:(id)sender {
     
-    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 50)];
-    view.backgroundColor = [UIColor redColor];
+    UIView *vp = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 300, 150)];
+    vp.backgroundColor = [UIColor redColor];
     
     
-    CustomPopView *customView = [[CustomPopView alloc] initWithFrame:self.view.bounds withView:view];
+    CustomPopView *customView = [[CustomPopView alloc] initWithFrame:self.view.bounds withShowView:vp];
+    [customView setCustomPopViewCallBack:^(id obj) {
+        NSLog(@"%@",obj);
+    }];
     
     
     [self.view addSubview:customView];

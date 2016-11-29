@@ -8,12 +8,30 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CustomPopView : UIView
+typedef void (^CustomPopViewCallBack)(id obj);
 
+@interface CustomPopView : UIView
+{
+    CustomPopViewCallBack _customPopViewCallBack;
+}
 
 @property (nonatomic , strong)UIView *backgroundView;
+@property (nonatomic , strong)UIView *showInView;
+
+/**
+ *  init frame with show view
+ */
+- (instancetype)initWithFrame:(CGRect)frame withShowView:(UIView *)viewParam;
+
+/**
+ *  dissmiss
+ */
+- (void)disssmissAnimationPopView;
 
 
-- (instancetype)initWithFrame:(CGRect)frame withView:(UIView *)viewParam;
+/**
+ * set call back
+ */
+-(void)setCustomPopViewCallBack:(CustomPopViewCallBack)popViewCallBack;
 
 @end
