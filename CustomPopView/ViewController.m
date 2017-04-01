@@ -33,6 +33,8 @@
     
     
     CustomPopView *customView = [[CustomPopView alloc] initWithFrame:self.view.bounds withShowView:vp];
+    [customView showAnimationPopView];
+    
     [customView setCustomPopViewCallBack:^(id obj) {
         NSLog(@"%@",obj);
     }];
