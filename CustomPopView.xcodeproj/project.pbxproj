@@ -7,16 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8695EAA81E98DB4A001D4716 /* CustomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8695EAA71E98DB4A001D4716 /* CustomPopView.m */; };
 		EEA285FA1DEC50380040C232 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA285F91DEC50380040C232 /* main.m */; };
 		EEA285FD1DEC50380040C232 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA285FC1DEC50380040C232 /* AppDelegate.m */; };
 		EEA286001DEC50380040C232 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA285FF1DEC50380040C232 /* ViewController.m */; };
 		EEA286031DEC50380040C232 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA286011DEC50380040C232 /* Main.storyboard */; };
 		EEA286051DEC50380040C232 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA286041DEC50380040C232 /* Assets.xcassets */; };
 		EEA286081DEC50380040C232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEA286061DEC50380040C232 /* LaunchScreen.storyboard */; };
-		EEA286111DEC50670040C232 /* CustomPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA286101DEC50670040C232 /* CustomPopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8695EAA61E98DB4A001D4716 /* CustomPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopView.h; sourceTree = "<group>"; };
+		8695EAA71E98DB4A001D4716 /* CustomPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopView.m; sourceTree = "<group>"; };
 		EEA285F51DEC50380040C232 /* CustomPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEA285F91DEC50380040C232 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEA285FB1DEC50380040C232 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -27,8 +29,6 @@
 		EEA286041DEC50380040C232 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEA286071DEC50380040C232 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEA286091DEC50380040C232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EEA2860F1DEC50670040C232 /* CustomPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPopView.h; sourceTree = "<group>"; };
-		EEA286101DEC50670040C232 /* CustomPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8695EAA51E98DB2B001D4716 /* CustomPopView */ = {
+			isa = PBXGroup;
+			children = (
+				8695EAA61E98DB4A001D4716 /* CustomPopView.h */,
+				8695EAA71E98DB4A001D4716 /* CustomPopView.m */,
+			);
+			path = CustomPopView;
+			sourceTree = "<group>";
+		};
 		EEA285EC1DEC50380040C232 = {
 			isa = PBXGroup;
 			children = (
@@ -61,12 +70,11 @@
 		EEA285F71DEC50380040C232 /* CustomPopView */ = {
 			isa = PBXGroup;
 			children = (
+				8695EAA51E98DB2B001D4716 /* CustomPopView */,
 				EEA285FB1DEC50380040C232 /* AppDelegate.h */,
 				EEA285FC1DEC50380040C232 /* AppDelegate.m */,
 				EEA285FE1DEC50380040C232 /* ViewController.h */,
 				EEA285FF1DEC50380040C232 /* ViewController.m */,
-				EEA2860F1DEC50670040C232 /* CustomPopView.h */,
-				EEA286101DEC50670040C232 /* CustomPopView.m */,
 				EEA286011DEC50380040C232 /* Main.storyboard */,
 				EEA286041DEC50380040C232 /* Assets.xcassets */,
 				EEA286061DEC50380040C232 /* LaunchScreen.storyboard */,
@@ -158,7 +166,7 @@
 				EEA286001DEC50380040C232 /* ViewController.m in Sources */,
 				EEA285FD1DEC50380040C232 /* AppDelegate.m in Sources */,
 				EEA285FA1DEC50380040C232 /* main.m in Sources */,
-				EEA286111DEC50670040C232 /* CustomPopView.m in Sources */,
+				8695EAA81E98DB4A001D4716 /* CustomPopView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
